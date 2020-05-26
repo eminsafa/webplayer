@@ -31,7 +31,7 @@ video::cue(b) {
     </head>
     <body>
         <div class="container" style="margin-top:50px;">
-            <h1>Yabancı Dil İçin Oynatıcı</h1>
+            <h1>Learn English with Videos</h1>
             <div class="row">
                 <div class="col-8 sol-panel">
                 <video controls id="myVideo">
@@ -51,21 +51,21 @@ video::cue(b) {
                     
                     <!-- File Button --> 
                     <div class="form-group">
-                        <label class=" control-label" for="videosecbuton">Video Seç</label>
+                        <label class=" control-label" for="videosecbuton">Select Video</label>
                         <input id="videosecbuton" name="videosecbuton" class="input-file" type="file" accept=".mp4, .ogg, .webm">
                     </div>
 
 
                     <div class="form-group">
-                        <label class=" control-label" for="altyazisecbuton">Altyazı Seç</label>
+                        <label class=" control-label" for="altyazisecbuton">Select Subtitle</label>
                         <input id="altyazisecbuton" name="altyazisecbuton" class="input-file" type="file" accept=".srt">
-                        <button id="altyaziyuklebuton" onclick="altyaziyukle()" name="singlebutton" class="btn btn-primary">Yükle</button>
+                        <button id="altyaziyuklebuton" onclick="altyaziyukle()" name="singlebutton" class="btn btn-primary">Upload</button>
                     </div>
                     <!-- Select Basic -->
                     <div class="form-group">
-                        <label class="control-label" for="tekrar-sayisi">Tekrar Sayısı</label>
+                        <label class="control-label" for="tekrar-sayisi">Repeat Count</label>
                         <select id="tekrar-sayisi" class="form-control">
-                            <option value="1" selected>x1 (Tekrarsız)</option>
+                            <option value="1" selected>x1 (unrepeated)</option>
                             <option value="2">x2</option>
                             <option value="3">x3</option>
                             <option value="4">x4</option>
@@ -76,13 +76,13 @@ video::cue(b) {
                     
                     <!-- Button -->
                     <div class="form-group">
-                        <button id="baslat" onclick="baslat()" name="singlebutton" class="btn btn-primary">Başlat</button>
-                        <button id="durdur" onclick="durdur()" name="singlebutton" class="btn btn-primary">Durdur</button>
+                        <button id="baslat" onclick="baslat()" name="singlebutton" class="btn btn-primary">Start</button>
+                        <button id="durdur" onclick="durdur()" name="singlebutton" class="btn btn-primary">Pause</button>
                     </div>
                     
                     </fieldset>
 
-
+                    
                     <p>Sisteme daha önce, beğendiğim bir film sahnesi ve zamanını büyük oranda senkronize ettiğim bir altyazı yükledim. En popüler altyazı formatı olan .srt ile uyumludur.</p>
                     <br>
                     <p>Diyalogları manuel olarak belirledim. Aşağıda seçtiğiniz kadar tekrar edecektir.</p>
@@ -92,11 +92,6 @@ video::cue(b) {
                     <p>Pek çok video formatı desteklenmektedir. Farklı altyazı dilleri aynı anda eklenebilir.</p>
 
 
-
-                    <h2>Emeği Geçenler</h2>
-                    <p><b>Bekir Gezer</b><br><i>Fikir Sahibi</i></p>
-                    <p><b>Hakkı Tok</b><br><i>Koordinatör</i></p>
-                    <p><b>Emin Safa Tok</b><br><i>Yazar</i></p>
                 </div>
             </div>
         </div>
